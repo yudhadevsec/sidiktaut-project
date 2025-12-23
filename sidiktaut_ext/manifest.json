@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SidikTaut",
+  "version": "2.0.0",
+  "description": "SidikTaut: Modern URL Scanner Extension",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Scan with SidikTaut"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ]
+}
